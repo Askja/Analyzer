@@ -1,0 +1,25 @@
+{
+    "themes": {
+        "dark": {
+            "css": "style-dark.css",
+            "name": "Sirenia Dark"
+        },
+        "default": {
+            "css": "style.css",
+            "name": "Sirenia Default"
+        },
+        "light": {
+            "css": "style-light.css",
+            "name": "Sirenia Light"
+        },
+        "glass_dark": {
+            "css": "style-glass-dark.css",
+            "name": "Sirenia Dark Glass"
+        },
+        "glass_light": {
+            "css": "style-glass-light.css",
+            "name": "Sirenia Light Glass"
+        }
+    },
+    "current_theme": "default"
+}

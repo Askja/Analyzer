@@ -1,0 +1,298 @@
+*{
+	outline: none;
+}
+#-sirenia-empty{
+	margin-top:20px;
+	color:#fff;
+	text-align: center;
+	text-decoration: underline;
+}
+#-sirenia-xls-icon{
+	height: 48px;
+	width: 48px;
+	background-image: url("sirenia-glass/glass-xls.png");
+	background-size: cover;
+}
+#-sirenia-xls-icon-main{
+	height: 48px;
+	width: 48px;
+	background-image: url("sirenia-glass/glass-xls-main.png");
+	background-size: cover;
+}
+body{
+	background-image: url("sirenia-glass/bg.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 5px;
+}
+.-sirenia-textfield{
+	padding: 8px 12px;
+	width: 100%;
+	border: 0;
+	border-bottom: solid 2px #95a5a6;
+	background: transparent;
+	color: #fff;
+	transition: border-color 0.7s;
+}
+input[type="text"]::placeholder{
+	color: rgba(255, 255, 255, .7);
+}
+.-sirenia-textfield:focus{
+	border-bottom: solid 2px #3498db;
+}
+#-sirenia-filter-by-name{
+	padding: 5px 0;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+#-sirenia-label{
+	font-family: Tahoma;
+	font-size: 14px;
+}
+.-sirenia-wrapper{
+	background-color: rgba(0, 0, 0, .3);
+	overflow: auto;
+	width: 75%;
+	margin: 3px;
+	min-width: 855px;
+}
+#-sirenia-main-right{
+	width: 25%;
+	background-color: rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	min-width: 333px;
+}
+.-sirenia-main{
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	color: #ecf0f1;
+	display: flex;
+	min-height: 635px;
+}
+#-sirenia-control-panel{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+#-sirenia-footer{
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 10px 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	font-size: 13px;
+	font-family: Tahoma;
+	color: #fff;
+	margin-top: 30px;
+	text-align: center;
+}
+#-sirenia-footer a{
+	color: #fff;
+}
+#-sirenia-list-name{
+	width: 90px;
+	text-align: center;
+	cursor: pointer;
+}
+.-sirenia-wrapper::-webkit-scrollbar {
+	width: 10px;
+	cursor: pointer;
+}
+.-sirenia-wrapper::-webkit-scrollbar-track {
+	border-radius: 3px;
+}
+.-sirenia-wrapper::-webkit-scrollbar-thumb {
+	background-color: #bdc3c7;
+	border-radius: 3px;
+}
+#-sirenia-line{
+	display: flex;
+	padding: 6px 10px;
+}
+#-sirenia-line img{
+	width: 5%;
+    min-width: 48px;
+	max-width: 48px;
+}
+#-sirenia-line-left{
+	display: flex;
+	width: 85%;
+}
+#-sirenia-name{
+	color: #fff;
+	width: 65%;
+	font-size: 13px;
+	border-bottom: solid 1px rgba(255, 255, 255, .3);
+	padding-top: 15px;
+	margin-left: 20px;
+	font-family: Tahoma;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#-sirenia-range{
+	width: 18%;
+	font-size: 13px;
+	padding-top: 17px;
+	color: #fff;
+	text-align: center;
+	font-family: Tahoma;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#-sirenia-controls{
+	width: 15%;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 8px;
+}
+#-sirenia-button{
+	background-color: rgba(0, 0, 0, .5);
+	color: #fff;
+	cursor: pointer;
+	padding: 12px 0px 12px 4px;
+	width: 100%;
+	word-break: break-word;
+	font-size: 13px;
+	font-family: Tahoma;
+}
+#-sirenia-themes-switcher{
+	padding-top: 12px;
+	width: 100%;
+	text-align: center;
+}
+.-sirenia-theme{
+	width: 100%;
+	background-color: transparent;
+	border: 0;
+	border-bottom: solid 2px #95a5a6;
+	margin-left: 0;
+	cursor: pointer;
+	transition: border-color 0.7s;
+	color: #fff;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+}
+.-sirenia-theme > option{
+	background-color: rgba(0, 0, 0, .9);
+}
+#-sirenia-filter{
+	padding: 12px 0px;
+	text-align: center;
+	background-color: rgba(0, 0, 0, .5);
+}
+#-sirenia-button:hover{
+	background-color: rgba(0, 0, 0, .7);
+	text-decoration: underline;
+}
+option{
+	padding: 5px;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, .9);
+	border: 0;
+}
+select{
+	padding: 8px;
+	cursor: pointer;
+	margin-left: 8px;
+	background-color: transparent;
+    border: 0;
+    color: #fff;
+	-webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+   border-bottom: solid 2px #95a5a6;
+}
+a{
+	text-decoration: none;
+}
+#-sirenia-loader-line{
+	width: 100%;
+	margin-top:20px;
+	color:#fff;
+	text-align: center;
+	text-decoration: underline;
+}
+#-sirenia-green{
+	background-color: rgba(0, 0, 0, .7);
+	color: #fff;
+	cursor: pointer;
+	padding: 8px 0px;
+	height: 17px;
+	font-size: 13px;
+	font-family: Tahoma;
+	width: 90%;
+    text-align: center;
+	border: solid 1px rgba(255, 255, 255, .5);
+}
+#-sirenia-green:hover{
+	background-color: rgba(255, 255, 255, 1);
+	color: black;
+}
+.askja-tooltip{
+    display: block;
+    position: fixed;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1000000;
+    
+    border-radius: 4px;
+    
+    font-family: sans-serif;
+}
+.askja-tooltip > span{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.askja-tooltip > span{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.askja-tooltip.focus > span{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.askja-tooltip{
+    box-shadow: 0px 5px 5px rgba(  0,  0,  0,  0.05); 
+}
+.askja-tooltip > span{
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.3s ease; 
+    -moz-transition: all 0.3s ease;
+}
+.askja-tooltip > span{
+    max-width: 0px;
+    max-height: 0px;
+    opacity: 0;
+    font-size: 0px;
+    border-radius: 4px;
+    background-color: transparent;
+    color: transparent;
+}
+.askja-tooltip.focus > span{
+    max-width: 240px;
+    max-height: 240px;
+    
+    opacity: 1;
+    
+    line-height: 18px;
+    font-size: 13px;
+    
+    background-color: #191919;
+    color: white;
+}

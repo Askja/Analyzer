@@ -1,0 +1,23 @@
+{
+    "name": "askja-web/analyzer",
+    "description": "Analyze documents, and etc",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Askja",
+            "email": "ex.sirenia@ya.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "models\\": "models",
+            "engine\\": "engine",
+            "config\\": "config"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "dev-master",
+        "phpoffice/phpword": "dev-master",
+      "ext-mysqli": "*"
+    }
+}
